@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\labochka.dir/objects.a
+C:\MinGW\mingw32\bin\ar.exe cr CMakeFiles\labochka.dir/objects.a @CMakeFiles\labochka.dir\objects1.rsp
+C:\MinGW\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\labochka.dir/objects.a -Wl,--no-whole-archive  -o labochka.exe -Wl,--out-implib,liblabochka.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\labochka.dir\linklibs.rsp
